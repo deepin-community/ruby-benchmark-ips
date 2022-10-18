@@ -1,0 +1,46 @@
+ruby-benchmark-ips (2.7.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Reupload to unstable
+  
+  [ Debian Janitor ]
+  * Set fields Upstream-Contact in debian/copyright.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata.
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 14 Jan 2020 20:52:39 +0530
+
+ruby-benchmark-ips (2.7.2-1) experimental; urgency=medium
+
+  [ Sebastien Badia ]
+  * Team upload.
+  * d/watch: Fall-back to Github (githubredir webservice was discontinued)
+
+  [ Cédric Boutillier ]
+  * Bump debhelper compatibility level to 9
+  * Remove version in the gem2deb build-dependency
+  * Use https:// in Vcs-* fields
+  * Use https:// in Vcs-* fields
+  * Bump Standards-Version to 3.9.7 (no changes needed)
+  * Run wrap-and-sort on packaging files
+
+  [ Utkarsh Gupta ]
+  * Add salsa-ci.yml
+
+  [ Priyanka Saggu ]
+  * New Upstream Version 2.7.2
+  * Rename README.txt to README.md in d/ruby-benchmark-ips.docs
+
+ -- Priyanka Saggu <priyankasaggu11929@gmail.com>  Sun, 22 Sep 2019 06:56:22 +0000
+
+ruby-benchmark-ips (1.2.0+git.20130609.e47e416-2) unstable; urgency=low
+
+  * Rebuild with ruby 2.0 as default
+  * Bump Standards-Version to 3.9.5, no changes
+
+ -- Per Andersson <avtobiff@gmail.com>  Sun, 06 Apr 2014 23:47:54 +0200
+
+ruby-benchmark-ips (1.2.0+git.20130609.e47e416-1) unstable; urgency=low
+
+  * Initial release (Closes: #698726)
+
+ -- Per Andersson <avtobiff@gmail.com>  Sun, 09 Jun 2013 16:29:05 +0200

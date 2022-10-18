@@ -1,0 +1,12 @@
+Document: ruby-benchmark-ips-doc
+Title: Debian ruby-benchmark-ips manual
+Author: Evan Phoenix
+Abstract: iterations per second enhancement to Benchmark
+ Benchmark/ips benchmarks a blocks iterations/second. For short snippets of
+ code, ips automatically figures out how many times to run the code to get
+ interesting data. No more guessing at random iteration counts.
+Section: Programming/Ruby
+
+Format: HTML
+Index: /usr/share/doc/ruby-benchmark-ips-doc/html/index.html
+Files: /usr/share/doc/ruby-benchmark-ips-doc/html/*

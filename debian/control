@@ -1,0 +1,41 @@
+Source: ruby-benchmark-ips
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Per Andersson <avtobiff@gmail.com>
+Build-Depends: debhelper-compat (= 12),
+               gem2deb,
+               rdoc,
+               ruby-hoe
+Standards-Version: 4.4.1
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-benchmark-ips.git
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-benchmark-ips
+Homepage: https://github.com/evanphx/benchmark-ips
+XS-Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Rules-Requires-Root: no
+
+Package: ruby-benchmark-ips
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Suggests: ruby-benchmark-ips-doc
+Description: iterations per second enhancement to Benchmark
+ Benchmark/ips benchmarks a blocks iterations/second. For short snippets of
+ code, ips automatically figures out how many times to run the code to get
+ interesting data. No more guessing at random iteration counts.
+
+Package: ruby-benchmark-ips-doc
+Architecture: all
+Section: doc
+Depends: libjs-jquery,
+         ${misc:Depends}
+Suggests: ruby-benchmark-ips
+Description: iterations per second enhancement to Benchmark (documentation)
+ Benchmark/ips benchmarks a blocks iterations/second. For short snippets of
+ code, ips automatically figures out how many times to run the code to get
+ interesting data. No more guessing at random iteration counts.
+ .
+ This package contains the html documentation for ruby-benchmark-ips.
